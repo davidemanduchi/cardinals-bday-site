@@ -1,0 +1,109 @@
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: MedievalSharp, cursive;
+    background: linear-gradient(to bottom right, #78542f, #BA9575, #DAC3A7, #E8D6C0, #DAC3A7, #BA9575, #78542f);
+    color: #3A2412;
+}
+
+#bff-img {
+    background-image: url("images/CardinalPallavicini.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #a8311e;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    /* background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px; */
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    /* background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px; */
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 455px;
+    height: 400px;
+    background-image: url("images/coat-of-arms.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.webp");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/pope-people.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/saint.webp");
+    width: 400px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/pope-drip.webp");
+    background-size: contain;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/pope-cheers.webp");
+    background-position: right;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #a8311e;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
